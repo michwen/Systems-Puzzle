@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>eCommerce Sell Records</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Description</th>
+  </tr>
+ 
+<tbody>
+{% for item in data %}
+  <tr>
+  <td>{{ item.name }}</td>
+  <td>{{ item.quantity }}</td>
+  <td>{{ item.description }}</td>
+  </tr>
+{% endfor %} 
+</table>
+
+
+<p>
+<a href="/projects">The project page</a>
+</p>
+
+<p>
+<a href="/about">About</a>
+</p>
+
+<p>
+<a href="/">Return</a>
+</p>
+
+
+</body>
+</html>
