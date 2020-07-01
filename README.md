@@ -1,5 +1,7 @@
 # Insight DevOps Engineering Systems Puzzle
 
+ALL RIGHT RESERVED
+
 ## Table of Contents
 1. [Understanding the puzzle](README.md#understanding-the-puzzle)
 2. [Introduction](README.md#introduction)
